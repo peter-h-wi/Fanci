@@ -92,11 +92,11 @@ struct ContentView: View {
                                     }.padding()
                                 }
                             }
-                                
+                                // nope
                             }
                         }
                     } // Scroll view
-                    .navigationBarTitle("Wardrobe", displayMode: .inline)
+                    .navigationBarTitle("Closet", displayMode: .inline)
                     .navigationBarItems(trailing: Button(action: {
                         self.showAddSheet.toggle()
                     }) {
