@@ -14,6 +14,17 @@
 		FE7789BF24BEAA5C00D9A98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7789BE24BEAA5C00D9A98F /* Assets.xcassets */; };
 		FE7789C224BEAA5C00D9A98F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7789C124BEAA5C00D9A98F /* Preview Assets.xcassets */; };
 		FE7789C524BEAA5C00D9A98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7789C324BEAA5C00D9A98F /* LaunchScreen.storyboard */; };
+		FE7789D924BEAFCB00D9A98F /* AddClothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7789D824BEAFCB00D9A98F /* AddClothView.swift */; };
+		FE7789DB24BEDB3E00D9A98F /* GlobalEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7789DA24BEDB3E00D9A98F /* GlobalEnvironment.swift */; };
+		FE7789DE24BEE33300D9A98F /* Cloth+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7789DC24BEE33300D9A98F /* Cloth+CoreDataClass.swift */; };
+		FE7789DF24BEE33300D9A98F /* Cloth+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7789DD24BEE33300D9A98F /* Cloth+CoreDataProperties.swift */; };
+		FE778A0C24BEF20800D9A98F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE778A0B24BEF20800D9A98F /* ImagePicker.swift */; };
+		FE778A0E24BFF6D100D9A98F /* EditClothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE778A0D24BFF6D100D9A98F /* EditClothView.swift */; };
+		FE778A1024C0198100D9A98F /* EachCloth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE778A0F24C0198100D9A98F /* EachCloth.swift */; };
+		FE9709E924C2CFC500CFD363 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9709E824C2CFC500CFD363 /* SearchBar.swift */; };
+		FE9709EC24C2DCF400CFD363 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9709EB24C2DCF400CFD363 /* CategoryRow.swift */; };
+		FE9709EE24C8226C00CFD363 /* InCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9709ED24C8226C00CFD363 /* InCategoryView.swift */; };
+		FE9709F024CAF73400CFD363 /* ClothTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9709EF24CAF73400CFD363 /* ClothTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		FE7789C124BEAA5C00D9A98F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE7789C424BEAA5C00D9A98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE7789C624BEAA5C00D9A98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7789D824BEAFCB00D9A98F /* AddClothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClothView.swift; sourceTree = "<group>"; };
+		FE7789DA24BEDB3E00D9A98F /* GlobalEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEnvironment.swift; sourceTree = "<group>"; };
+		FE7789DC24BEE33300D9A98F /* Cloth+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cloth+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		FE7789DD24BEE33300D9A98F /* Cloth+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cloth+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		FE778A0B24BEF20800D9A98F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FE778A0D24BFF6D100D9A98F /* EditClothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditClothView.swift; sourceTree = "<group>"; };
+		FE778A0F24C0198100D9A98F /* EachCloth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachCloth.swift; sourceTree = "<group>"; };
+		FE9709E824C2CFC500CFD363 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FE9709EB24C2DCF400CFD363 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		FE9709ED24C8226C00CFD363 /* InCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCategoryView.swift; sourceTree = "<group>"; };
+		FE9709EF24CAF73400CFD363 /* ClothTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +80,20 @@
 		FE7789B424BEAA5800D9A98F /* Fanci */ = {
 			isa = PBXGroup;
 			children = (
+				FE7789DC24BEE33300D9A98F /* Cloth+CoreDataClass.swift */,
+				FE7789DD24BEE33300D9A98F /* Cloth+CoreDataProperties.swift */,
 				FE7789B524BEAA5800D9A98F /* AppDelegate.swift */,
+				FE7789DA24BEDB3E00D9A98F /* GlobalEnvironment.swift */,
+				FE778A0F24C0198100D9A98F /* EachCloth.swift */,
 				FE7789B724BEAA5800D9A98F /* SceneDelegate.swift */,
+				FE9709EF24CAF73400CFD363 /* ClothTypeView.swift */,
 				FE7789BC24BEAA5800D9A98F /* ContentView.swift */,
+				FE9709ED24C8226C00CFD363 /* InCategoryView.swift */,
+				FE9709EB24C2DCF400CFD363 /* CategoryRow.swift */,
+				FE778A0D24BFF6D100D9A98F /* EditClothView.swift */,
+				FE7789D824BEAFCB00D9A98F /* AddClothView.swift */,
+				FE778A0B24BEF20800D9A98F /* ImagePicker.swift */,
+				FE9709E824C2CFC500CFD363 /* SearchBar.swift */,
 				FE7789BE24BEAA5C00D9A98F /* Assets.xcassets */,
 				FE7789C324BEAA5C00D9A98F /* LaunchScreen.storyboard */,
 				FE7789C624BEAA5C00D9A98F /* Info.plist */,
@@ -149,9 +182,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9709F024CAF73400CFD363 /* ClothTypeView.swift in Sources */,
+				FE7789DB24BEDB3E00D9A98F /* GlobalEnvironment.swift in Sources */,
 				FE7789BB24BEAA5800D9A98F /* Fanci.xcdatamodeld in Sources */,
 				FE7789B624BEAA5800D9A98F /* AppDelegate.swift in Sources */,
+				FE778A0E24BFF6D100D9A98F /* EditClothView.swift in Sources */,
+				FE778A0C24BEF20800D9A98F /* ImagePicker.swift in Sources */,
+				FE9709E924C2CFC500CFD363 /* SearchBar.swift in Sources */,
+				FE9709EC24C2DCF400CFD363 /* CategoryRow.swift in Sources */,
+				FE7789D924BEAFCB00D9A98F /* AddClothView.swift in Sources */,
+				FE778A1024C0198100D9A98F /* EachCloth.swift in Sources */,
+				FE9709EE24C8226C00CFD363 /* InCategoryView.swift in Sources */,
 				FE7789BD24BEAA5800D9A98F /* ContentView.swift in Sources */,
+				FE7789DE24BEE33300D9A98F /* Cloth+CoreDataClass.swift in Sources */,
+				FE7789DF24BEE33300D9A98F /* Cloth+CoreDataProperties.swift in Sources */,
 				FE7789B824BEAA5800D9A98F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
